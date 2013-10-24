@@ -19,9 +19,14 @@ echo " id=\"active\""; ?>><a href="programa.php">Programa</a></li>
         <li <?php if ($thisPage=="resumenes") 
 echo " id=\"active\""; ?>><a href="resumenes.php">Res&uacutemenes</a></li>
         <li <?php if ($thisPage=="becas") 
-echo " id=\"active\""; ?>><a href="informacionVisitante.php">Informaci&oacuten Visitante</a></li>
+echo " id=\"active\""; ?> class="hidden-sm"><a href="informacionVisitante.php">Informaci&oacuten Visitante</a></li>
+
+        <li <?php if ($thisPage=="becas") 
+echo " id=\"active\""; ?> class="visible-sm"><a href="informacionVisitante.php">Informaci&oacuten</a></li>
         <li <?php if ($thisPage=="pyo") 
-echo " id=\"active\""; ?>><a href="patrocinantesYOrganizacion.php">Patrocinantes y Organizaci&oacuten</a></li>
+echo " id=\"active\""; ?> class="hidden-sm"><a href="patrocinantesYOrganizacion.php">Organizaci&oacuten y Patrocinantes</a></li>
+        <li <?php if ($thisPage=="pyo") 
+echo " id=\"active\""; ?> class="visible-sm"><a href="patrocinantesYOrganizacion.php">Organizaci&oacuten</a></li>
       </ul>
     </div><!--/.navbar-collapse -->
   </div>

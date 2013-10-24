@@ -10,7 +10,7 @@
         <title>CLGC - Programa</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -37,28 +37,25 @@
       <table id="infoTable">
         <thead>
         <tr>
-          <th>D&iacutea</th>
-          <th>Ma&ntildeana</th>
-          <th>Tarde</th>
-          <th>Noche</th>
+          <th id="colSmall">D&iacutea</th>
+          <th id="colBig">Ma&ntildeana</th>
+          <th id="colBig">Tarde</th>
+          <th id="colSmall">Noche</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-          <td>Lunes, 5/5</td>
+          <td>Lunes, 5 de mayo</td>
           <td>
             <p>Registro</p>
             <p>Cursos pre-congreso:
 “Introducci&oacuten a la gen&eacutetica para la conservaci&oacuten” y “Diseño de proyectos de gen&eacutetica para la conservaci&oacuten”</p>
           </td>
-          <td>
-            <p>Bienvenida</p>
-            <p>Conferencia Antonio Sol&eacute Cava</p>
-          </td>
-          <td>-</td>
+          <td>Bienvenida</td>
+          <td>&nbsp;</td>
         </tr>
         <tr>
-          <td>Martes, 6/5</td>
+          <td>Martes, 6 de mayo</td>
           <td>Presentaciones orales</td>
           <td>
             <p>Conferencia</p>
@@ -67,7 +64,7 @@
           <td>Carteles</td>
         </tr>
         <tr>
-          <td>Mi&eacutercoles, 7/5</td>
+          <td>Mi&eacutercoles 7 de mayo</td>
           <td>Presentaciones orales</td>
           <td>
             <p>Conferencia</p>
@@ -76,7 +73,7 @@
           <td>Mesa redonda (miembros ReGeneC)</td>
         </tr>
         <tr>
-          <td>Jueves, 8/5</td>
+          <td>Jueves, 8 de mayo</td>
           <td>
             <p>Presentaciones orales</p>
             <p>Simposio Cacao</p>
@@ -88,7 +85,7 @@
           <td>Carteles</td>
         </tr>
         <tr>
-          <td>Viernes, 9/5</td>
+          <td>Viernes, 9 de mayo</td>
           <td>
             <p>Presentaciones orales</p>
             <p>Foro &Eacutetica y Conservaci&oacuten</p>
@@ -98,19 +95,17 @@
              <p>Clausura</p>
             <p>Curso “Secuenciaci&oacuten de pr&oacutexima generaci&oacuten y su uso en la gen&eacutetica para la conservaci&oacuten”</p>
           </td>
-          <td>-</td>
+          <td>&nbsp;</td>
         </tr>
         </tbody>
       </table>
-
+      <br>
       <div id="info" class="container">
-        <h2>Entre los conferencistas tendremos:</h2>
+        <h4>Entre los conferencistas tendremos:</h4>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;- Dr. Jonathan Ballou, Investigador del Center for Conservation and Evolutive Genetics.</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smithsonian Conservation Biology Institute, USA.</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;- Dr. Antonio Solé-Cava, Laboratório de Biodiversidade Molecular.</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Departamento de Genética, Instituto de Biologia, Universidade Federal do Rio de Janeiro, Brasil.</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;- Dra. Cristina Yumi Miyaki, Laboratorio de Genética e Evolução Molecular de Aves.</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Departamento de Biologia, Instituto de Biociências, Universidade de São Paulo, Brasil.</p>
       </div>
 
       <hr>

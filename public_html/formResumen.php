@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>CLGC - Res&uacutemenes</title>
+        <title>CLGC - Formulario Resumen</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -35,21 +35,8 @@
     <?php include 'jumbotron.php'; ?>
 
     <div id="main" class="container">
-        <div class="row">
-          <?php include 'sidebar.php'; ?>
-          <section id="info" class="testimonial col-md-7">
-            <h3>Convocatoria a someter res&uacutemenes para presentaciones orales y carteles</h3>
-            <p>La recepci&oacuten de res&uacutemenes para presentar trabajos en el I Congreso Latinoamericano de Gen&eacutetica para la Conservaci&oacuten se encuentra abierta hasta el 10 de enero de 2014. La decisi&oacuten sobre los res&uacutemenes sometidos ser&aacute anunciada hasta el 16 de febrero de 2014 por correo electr&oacutenico. </p>
-            <br>
-            <h3>Instrucciones generales</h3>
-            <p>Se recibir&aacuten res&uacutemenes de trabajos originales. El resumen puede ser en castellano o portugu&eacutes. Su extensi&oacuten m&aacutexima es de 250 palabras y se espera que su estructura incluya elementos de: contexto cient&iacutefico y de conservaci&oacuten, descripci&oacuten de m&eacutetodos, resultados m&aacutes relevantes y conclusiones concretas que resalten la importancia de los resultados obtenidos para la conservaci&oacuten. Los res&uacutemenes con conclusiones vagas como "la importancia de los resultados obtenidos ser&aacute discutida" no ser&aacuten considerados. </p>
-            <p>Los res&uacutemenes aceptados ser&aacuten incluidos en las Memorias del Congreso, en formato digital. </p>
-            <p>Para someter su resumen por favor presione <a target="_blank" href="formResumen.php">aqu&iacute</a>. Recuerde que cada autor podr&aacute presentar (formato oral o cartel) un m&aacuteximo de dos trabajos.</p>
-            <p>Si tiene alguna dificultad en el proceso de registro on-line por favor escriba a: <a href="mailto:latgencon@gmail.com">latgencon@gmail.com</a></p>
-            <br>
-            <h3>Trabajos en extenso</h3>
-            <p>Los participantes del I CLGC est&aacuten invitados a postular una versi&oacuten extendida de su trabajo cient&iacutefico para que sea considerada como parte de un n&uacutemero especial de la revista Journal of Heredity. El proceso de arbitraje ser&aacute realizado por miembros de ReGeneC y del cuerpo editorial de la revista. Los manuscritos deben enviarse a <a href="mailto:edicionclgc@gmail.com">edicionclgc@gmail.com</a>. Si elige postular, por favor, siga cuidadosamente las instrucciones para los autores que se indican en la revista. Por favor, tenga en cuenta que el archivo debe ser enviado directamente a la direcci&oacuten antes mencionada, considerando incluso el material suplementario.</p>
-          </section>
+        <div id="iframe">
+            <iframe id="formResumen" width="760" height="4250" frameborder="0" marginheight="0" marginwidth="0" src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHlnZV9XSU1weEp3V1VSalJ5UmwtVmc6MA" >Cargando...</iframe>
         </div>
 
       <hr>

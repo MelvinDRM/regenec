@@ -10,7 +10,7 @@
         <title>CLGC - Registro</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -36,55 +36,63 @@
       <div id="info">
         <h2>Registro de participantes</h2>
         <p>Para la asistencia al I Congreso Latinoamericano de Gen&eacutetica para la Conservaci&oacuten contamos con diferentes fechas de registro:</p>
+        
+        <br>
+        <table id="regTable">
+          <thead>
+            <tr>
+              <th rowspan="2">Fechas</th>
+              <th colspan="2">Miembros ReGeneC</th>
+              <th colspan="2">No miembros de ReGeneC</th>
+            </tr>
+            <tr>
+              <th>Estudiantes</th>
+              <th>Profesionales</th>
+              <th>Estudiantes</th>
+              <th>Profesionales</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Registro temprano (28 de febrero de 2014)</td>
+            <td>260 USD</td>
+            <td>280 USD</td>
+            <td>280 USD</td>
+            <td>300 USD</td>
+          </tr>
+          <tr>
+            <td>Registro regular (23 de abril de 2014)</td>
+            <td>280 USD</td>
+            <td>300 USD</td>
+            <td>300 USD</td>
+            <td>320 USD</td>
+          </tr>
+          <tr>
+            <td>Registro tard&iacuteo (hasta el 5 de mayo de 2014)</td>
+            <td>300 USD</td>
+            <td>320 USD</td>
+            <td>320 USD</td>
+            <td>340 USD</td>
+          </tr>
+          </tbody>
+        </table>
+        <small>El registro se realizar&aacute en l&iacutenea y quedar&aacute abierto pr&oacuteximamente.</small>
       </div>
-
-      <table id="regTable">
-        <thead>
-        <tr>
-          <th>Fechas</th>
-          <th>Estudiantes Miembros ReGeneC</th>
-          <th>Profesionales Miembros ReGeneC</th>
-          <th>Estudiantes No miembros de ReGeneC</th>
-          <th>Profesionales No miembros de ReGeneC</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>Registro temprano (28 de febrero de 2014)</td>
-          <td>260 USD</td>
-          <td>280 USD</td>
-          <td>280 USD</td>
-          <td>300 USD</td>
-        </tr>
-        <tr>
-          <td>Registro regular (23 de abril de 2014)</td>
-          <td>280 USD</td>
-          <td>300 USD</td>
-          <td>300 USD</td>
-          <td>320 USD</td>
-        </tr>
-        <tr>
-          <td>Registro tard&iacuteo (hasta el 5 de mayo de 2014)</td>
-          <td>300 USD</td>
-          <td>320 USD</td>
-          <td>320 USD</td>
-          <td>340 USD</td>
-        </tr>
-        </tbody>
-      </table>
-
+      <br>
       <div id="info" class="container">
-        <p>El registro se realizar&aacute en l&iacutenea y quedar&aacute abierto pr&oacuteximamente.</p>
-        <h2>Cursos</h2>
+        <h3>Cursos</h3>
         <p>El costo de cada curso ser&aacute de 30 USD. Los cursos “Introducci&oacuten a la Gen&eacutetica para la Conservaci&oacuten” y “Diseño de proyectos en Gen&eacutetica para la Conservaci&oacuten” estar&aacuten abiertos s&oacutelo para estudiantes/profesionales que no hayan participado previamente del Taller de Gen&eacutetica para la Conservaci&oacuten organizado por ReGeneC. Al curso “Secuenciaci&oacuten de pr&oacutexima generaci&oacuten y su uso en la Gen&eacutetica para la Conservaci&oacuten” podr&aacuten postular profesionales con conocimientos en herramientas de gen&eacutetica molecular. Para postular a los cursos seleccione:</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.google.com/forms/d/17SvgtXy8iqFfwgFLqzXjvlWT5PuCPbaFMCnN-FqDP8w/viewform?embedded=true">Introducci&oacuten a la GC</a></p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.google.com/forms/d/1M1mPaQNSEpf1IUDYiGhna2KhAXX2msAzE1IvsrDLu6c/viewform?embedded=true">Diseño de proyectos</a></p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.google.com/forms/d/16mCcTigyp_5KJGsL-vQtm-_EyPCeH4XPy7PohbU6vyg/viewform?embedded=true">Secuenciaci&oacuten de pr&oacutexima generaci&oacuten</a></p>
-        <h2>Becas de viaje</h2>
-        <p>Existe un n&uacutemero limitado de becas de viaje, las cuales ofrecen apoyo parcial para asistir al congreso. Si desea postular presione <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dE04bElaZmF6QXl3VDJBdm9LRkhoY2c6MA">aqu&iacute</a></p>
-        <h2>Pol&iacutetica de cancelaciones</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="formCursoGenetica.php">Introducci&oacuten a la GC</a></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="formCursoDiseno.php">Diseño de proyectos</a></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="formCursoSecuenciacion.php">Secuenciaci&oacuten de pr&oacutexima generaci&oacuten</a></p>
+        <br>
+        <h3>Becas de viaje</h3>
+        <p>Existe un n&uacutemero limitado de becas de viaje, las cuales ofrecen apoyo parcial para asistir al congreso. Si desea postular presione <a target="_blank" href="formSolicitudBeca.php">aqu&iacute</a></p>
+        <br>
+        <h3>Pol&iacutetica de cancelaciones</h3>
         <p>Por favor, tenga en cuenta que usted puede cancelar su registro hasta un mes antes del inicio del congreso, recibiendo un reembolso de su pago. Sin embargo, se realizar&aacute un cargo del 10% por gastos administrativos sobre todas las cancelaciones. Las cancelaciones solicitadas durante el mes previo al congreso ser&aacuten reembolsadas en un 50% y aquellas solicitadas despu&eacutes del 5 de Mayo no recibir&aacuten reembolso. Para solicitar la cancelaci&oacuten de su registro por favor escriba a <a href="mailto:latgencon@gmail.com">latgencon@gmail.com</a></p>
-        <h2>Carta de Invitaci&oacuten</h2>
+        <br>
+        <h3>Carta de Invitaci&oacuten</h3>
         <p>Si necesita una carta de invitaci&oacuten, con el objetivo de conseguir fondos, puede solicitarla v&iacutea E-mail a Gaby Montiel, a trav&eacutes de la direcci&oacuten de correo electr&oacutenico <a href="mailto:latgencon@gmail.com">latgencon@gmail.com</a></p>
       </div>
 
