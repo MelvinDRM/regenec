@@ -36,7 +36,7 @@
 
     <div id="main" class="container">
         <div id="iframe">
-            <iframe src="https://docs.google.com/forms/d/17SvgtXy8iqFfwgFLqzXjvlWT5PuCPbaFMCnN-FqDP8w/viewform?embedded=true" width="760" height="1700" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
+            <iframe src="https://docs.google.com/forms/d/17SvgtXy8iqFfwgFLqzXjvlWT5PuCPbaFMCnN-FqDP8w/viewform?embedded=true" width="100%" height="2240" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
         </div>
 
       <hr>

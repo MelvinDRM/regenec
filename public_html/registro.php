@@ -1,3 +1,4 @@
+<!-- <?php include "sitecake/server/sitecake_entry.php"; ?> -->
 <?php $thisPage="registro"; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -15,6 +16,8 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
         
         <script src="js/vendor/jquery-1.8.0.min.js" type="text/javascript"></script>  
         <!--[if lt IE 9]>
@@ -33,8 +36,8 @@
     <?php include 'jumbotron.php'; ?>
 
     <div id="main" class="container">
-      <div id="info">
-        <h2>Registro de participantes</h2>
+      <div id="info" class="container sc-content-editableRegistro1">
+        <h3>Registro de participantes</h3>
         <p>Para la asistencia al I Congreso Latinoamericano de Gen&eacutetica para la Conservaci&oacuten contamos con diferentes fechas de registro:</p>
         
         <br>
@@ -79,12 +82,14 @@
         <small>El registro se realizar&aacute en l&iacutenea y quedar&aacute abierto pr&oacuteximamente.</small>
       </div>
       <br>
-      <div id="info" class="container">
+      <div id="info" class="container sc-content-editableRegistro2">
         <h3>Cursos</h3>
         <p>El costo de cada curso ser&aacute de 30 USD. Los cursos “Introducci&oacuten a la Gen&eacutetica para la Conservaci&oacuten” y “Diseño de proyectos en Gen&eacutetica para la Conservaci&oacuten” estar&aacuten abiertos s&oacutelo para estudiantes/profesionales que no hayan participado previamente del Taller de Gen&eacutetica para la Conservaci&oacuten organizado por ReGeneC. Al curso “Secuenciaci&oacuten de pr&oacutexima generaci&oacuten y su uso en la Gen&eacutetica para la Conservaci&oacuten” podr&aacuten postular profesionales con conocimientos en herramientas de gen&eacutetica molecular. Para postular a los cursos seleccione:</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="formCursoGenetica.php">Introducci&oacuten a la GC</a></p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="formCursoDiseno.php">Diseño de proyectos</a></p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="formCursoSecuenciacion.php">Secuenciaci&oacuten de pr&oacutexima generaci&oacuten</a></p>
+        <ul>
+          <li><a target="_blank" href="formCursoGenetica.php">Introducci&oacuten a la GC</a></li>
+          <li><a target="_blank" href="formCursoDiseno.php">Diseño de proyectos</a></li>
+          <li><a target="_blank" href="formCursoSecuenciacion.php">Secuenciaci&oacuten de pr&oacutexima generaci&oacuten</a></li>
+        </ul>
         <br>
         <h3>Becas de viaje</h3>
         <p>Existe un n&uacutemero limitado de becas de viaje, las cuales ofrecen apoyo parcial para asistir al congreso. Si desea postular presione <a target="_blank" href="formSolicitudBeca.php">aqu&iacute</a></p>

@@ -56,6 +56,9 @@ footer a {
 	.jumbotron h1 {
 		font-size: 20px;
 	}
+	.navbar-fixed-top {
+		position: absolute;
+	}
 }
 
 #main {
@@ -66,8 +69,19 @@ footer a {
 	min-height: 40px;
 }
 
+.navbar-nav > li {
+	min-width: 85px;
+	text-align: center;
+}
+
+.nav > li > a {
+	padding: 15px 0px;
+}
+
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
+	height: 50px;
+
 }
 
 .navbar-nav {
@@ -79,13 +93,15 @@ footer a {
 }
 
 .navbar-inverse {
-	background-image: linear-gradient(to bottom,#EB3C15 0,#9B2A11 100%);
+	background: rgb(235,60,21); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(235,60,21,1) 0%, rgba(155,42,17,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(235,60,21,1)), color-stop(100%,rgba(155,42,17,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(235,60,21,1) 0%,rgba(155,42,17,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(235,60,21,1) 0%,rgba(155,42,17,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(235,60,21,1) 0%,rgba(155,42,17,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(235,60,21,1) 0%,rgba(155,42,17,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb3c15', endColorstr='#9b2a11',GradientType=0 ); /* IE6-9 */
 	background-repeat: repeat-x;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-	height: 50px;
-	padding: 15px;
 }
 
 .navbar-inverse .navbar-nav > #active > a, .navbar-inverse .navbar-nav > li > a:hover {
@@ -223,15 +239,22 @@ footer a {
 	text-align: justify;
 }
 
-#main #info #patrocinantes p.credits {
+@media (max-width: 768px) {
+	#main #info {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+#main #patrocinantes p.credits {
 	text-align: center;
 }
 
-@media (max-width: 305px) {
+/*@media (max-width: 305px) {
 	#main #info #patrocinantes p img#big {
 		width: 100%;
 	}
-}
+}*/
 
 @media (min-width: 1200px) {
 	.container {
@@ -284,13 +307,19 @@ th {
 	width: 35%;
 }
 
+table#regTable td:nth-of-type(2),
+table#regTable td:nth-of-type(3),
+table#regTable td:nth-of-type(4),
+table#regTable td:nth-of-type(5) {
+	text-align: center;
+}
 /* 
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
 and also iPads specifically.
 */
 @media 
-only screen and (max-width: 760px),
+only screen and (max-width: 767px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 		/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
@@ -339,6 +368,12 @@ only screen and (max-width: 760px),
 		padding-right: 10px; 
 		white-space: nowrap;
 	}
+	table#regTable td:nth-of-type(2),
+	table#regTable td:nth-of-type(3),
+	table#regTable td:nth-of-type(4),
+	table#regTable td:nth-of-type(5) {
+		text-align: left;
+	}
 	
 	/*
 	Label the data
@@ -386,10 +421,6 @@ and (max-device-width : 480px) {
 	-webkit-border-radius: 5px;
 	-ms-border-radius: 5px;
 	border-radius: 5px;
-}
-
-#main #sidebar #sidebarButton {
-	font-size: 16px;
 }
 
 #main #sidebar a {
@@ -448,4 +479,80 @@ and (max-device-width : 480px) {
 #sidebarImg {
 	max-width: 100%;
 	margin-bottom: 10px;
+}
+
+/* Patrocinantes */
+.sponsorListHolder {
+	margin-bottom:30px;
+	margin-left: 7.5%;
+}
+
+.sponsor {
+	width:180px;
+	height:180px;
+	float:left;
+	margin:4px;
+	
+	/* Giving the sponsor div a relative positioning: */
+	position:relative;
+}
+
+.sponsorFlip {
+	/*  The sponsor div will be positioned absolutely with respect
+		to its parent .sponsor div and fill it in entirely */
+
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	border:1px solid #ddd;	
+	background: white;
+	-moz-box-shadow:0 0 30px #999 inset;
+	-webkit-box-shadow:0 0 30px #999 inset;
+	box-shadow:0 0 30px #999 inset;
+}
+
+.sponsorFlip img.big {
+	width: 140px;
+}
+
+.sponsorFlip img#big1 {
+	margin-top: 72px;
+}
+
+.sponsorFlip img#big2 {
+	margin-top: 63.5px;
+}
+
+.sponsorFlip img#big3 {
+	margin-top: 62.5px;
+}
+
+.sponsorFlip img#big4 {
+	margin-top: 65.5px;
+}
+
+.sponsorFlip img#big5 {
+	margin-top: 56px;
+}
+
+.sponsorFlip img#big6 {
+	margin-top: 59.5px;
+}
+
+.sponsorFlip img#big7 {
+	margin-top: 65px;
+}
+
+.sponsorFlip img#small1 {
+	margin-top: 31.5px;
+}
+
+.sponsorFlip img#small2 {
+	margin-top: 46px;
+}
+
+.sponsorFlip.middleSponsor {
+	margin-left: 50%;
 }

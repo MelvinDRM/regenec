@@ -1,3 +1,4 @@
+<!-- <?php include "sitecake/server/sitecake_entry.php"; ?> -->
 <?php $thisPage="resumenes"; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -34,14 +35,15 @@
 
     <?php include 'jumbotron.php'; ?>
 
-    <div id="main" class="container">
+    <div id="main" class="container sc-content-editableResumen">
         <div class="row">
           <?php include 'sidebar.php'; ?>
           <section id="info" class="testimonial col-md-7">
             <h3>Convocatoria a someter res&uacutemenes para presentaciones orales y carteles</h3>
             <p>La recepci&oacuten de res&uacutemenes para presentar trabajos en el I Congreso Latinoamericano de Gen&eacutetica para la Conservaci&oacuten se encuentra abierta hasta el 10 de enero de 2014. La decisi&oacuten sobre los res&uacutemenes sometidos ser&aacute anunciada hasta el 16 de febrero de 2014 por correo electr&oacutenico. </p>
             <br>
-            <h3>Instrucciones generales</h3>
+            <b>Instrucciones generales</b>
+            <br>
             <p>Se recibir&aacuten res&uacutemenes de trabajos originales. El resumen puede ser en castellano o portugu&eacutes. Su extensi&oacuten m&aacutexima es de 250 palabras y se espera que su estructura incluya elementos de: contexto cient&iacutefico y de conservaci&oacuten, descripci&oacuten de m&eacutetodos, resultados m&aacutes relevantes y conclusiones concretas que resalten la importancia de los resultados obtenidos para la conservaci&oacuten. Los res&uacutemenes con conclusiones vagas como "la importancia de los resultados obtenidos ser&aacute discutida" no ser&aacuten considerados. </p>
             <p>Los res&uacutemenes aceptados ser&aacuten incluidos en las Memorias del Congreso, en formato digital. </p>
             <p>Para someter su resumen por favor presione <a target="_blank" href="formResumen.php">aqu&iacute</a>. Recuerde que cada autor podr&aacute presentar (formato oral o cartel) un m&aacuteximo de dos trabajos.</p>

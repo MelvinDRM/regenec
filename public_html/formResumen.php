@@ -36,7 +36,7 @@
 
     <div id="main" class="container">
         <div id="iframe">
-            <iframe id="formResumen" width="760" height="4250" frameborder="0" marginheight="0" marginwidth="0" src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHlnZV9XSU1weEp3V1VSalJ5UmwtVmc6MA" >Cargando...</iframe>
+            <iframe id="formResumen" width="100%" height="4600" frameborder="0" marginheight="0" marginwidth="0" src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHlnZV9XSU1weEp3V1VSalJ5UmwtVmc6MA" >Cargando...</iframe>
         </div>
 
       <hr>

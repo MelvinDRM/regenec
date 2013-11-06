@@ -1,3 +1,4 @@
+<!-- <?php include "sitecake/server/sitecake_entry.php"; ?> -->
 <?php $thisPage="programa"; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -15,6 +16,8 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
         
         <script src="js/vendor/jquery-1.8.0.min.js" type="text/javascript"></script>  
         <!--[if lt IE 9]>
@@ -32,7 +35,7 @@
 
     <?php include 'jumbotron.php'; ?>
 
-    <div id="main" class="container">
+    <div id="main" class="container sc-content-editablePrograma1">
       
       <table id="infoTable">
         <thead>
@@ -100,13 +103,16 @@
         </tbody>
       </table>
       <br>
-      <div id="info" class="container">
+      <div id="info" class="container sc-content-editablePrograma2">
         <h4>Entre los conferencistas tendremos:</h4>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;- Dr. Jonathan Ballou, Investigador del Center for Conservation and Evolutive Genetics.</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smithsonian Conservation Biology Institute, USA.</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;- Dr. Antonio Solé-Cava, Laboratório de Biodiversidade Molecular.</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Departamento de Genética, Instituto de Biologia, Universidade Federal do Rio de Janeiro, Brasil.</p>
-      </div>
+        <ul>
+          <li><p>Dr. Jonathan Ballou, Investigador del Center for Conservation and Evolutive Genetics.
+        <br>Smithsonian Conservation Biology Institute, USA.</p></li>
+          <li><p>Dr. Antonio Solé-Cava, Laboratório de Biodiversidade Molecular.
+        <br>Departamento de Genética, Instituto de Biologia, Universidade Federal do Rio de Janeiro, Brasil.</p></li>
+        </ul>
+        
+        </div>
 
       <hr>
 
